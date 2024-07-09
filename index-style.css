@@ -22,7 +22,7 @@ header{
 
 nav{
     align-items: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 ul{
@@ -36,14 +36,15 @@ main{
 }
 
 footer{
+    color: white;
     background-color: #1A1A1A;
     position: relative;
+    padding: 10px 0;
 }
 
 a{
     text-decoration: none;
     color: white;
-    margin: 0 5px;
 }
 
 /* utils  */
@@ -88,5 +89,15 @@ nav :last-child{
 }
 
 /* footer  */
+.info a{
+    font-size: 12px;
 
+}
 
+.footer-nav{
+    justify-content: space-between;
+}
+
+footer h3, footer h5{
+    margin-bottom: 10px;
+}
