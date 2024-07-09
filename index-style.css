@@ -13,7 +13,7 @@ body{
 header{
     background-color: #FF6901;
     color: white;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -26,7 +26,6 @@ nav{
 }
 
 main{
-    position: sticky;
 }
 
 footer{
@@ -52,6 +51,7 @@ a{
 
 /* header  */
 .gender{
+    flex-wrap: wrap;
     width: 20%;
 }
 
@@ -67,4 +67,9 @@ a{
 .header-icons{
     text-align: end;
     width: 20%;
+}
+
+/* main  */
+.col{
+    flex-basis: calc(100%/3);
 }
