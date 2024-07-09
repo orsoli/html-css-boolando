@@ -26,6 +26,7 @@ nav{
 }
 
 main{
+    padding: 50px 0;
 }
 
 footer{
@@ -40,7 +41,7 @@ a{
 
 /* utils  */
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -70,6 +71,15 @@ a{
 }
 
 /* main  */
-.col{
-    flex-basis: calc(100%/3);
+.row{
 }
+
+.col{
+    display: flex;
+}
+
+.card{
+    flex-basis: calc(100%/3);
+    height: 300px;
+}
+
