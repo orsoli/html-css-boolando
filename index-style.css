@@ -1,0 +1,70 @@
+/* reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics  */
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #FF6901;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px gray;
+}
+
+nav{
+    align-items: center;
+    padding: 10px 0;
+}
+
+main{
+    position: sticky;
+}
+
+footer{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
+
+/* utils  */
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* header  */
+.gender{
+    width: 20%;
+}
+
+.logo-container{
+    text-align: center;
+    flex: 1;
+}
+
+.logo{
+    height: 40px;
+}
+
+.header-icons{
+    text-align: end;
+    width: 20%;
+}
